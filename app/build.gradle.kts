@@ -87,6 +87,7 @@ dependencies {
 
     //hilt
     implementation("com.google.dagger:hilt-android:2.47")
+    implementation("androidx.hilt:hilt-navigation-compose:1.0.0")
     kapt("com.google.dagger:hilt-android-compiler:2.47")
 
     //network
@@ -95,4 +96,10 @@ dependencies {
     implementation("com.squareup.okhttp3:okhttp:4.11.0")
     implementation("com.squareup.okhttp3:logging-interceptor:4.11.0")
 
+    //preference
+    implementation("androidx.datastore:datastore-preferences:1.0.0")
+
+    implementation("org.jetbrains.kotlinx:kotlinx-collections-immutable:0.3.5")
+    implementation("androidx.lifecycle:lifecycle-runtime-compose:2.6.0-alpha01")
+    implementation("io.github.hoc081098:FlowExt:0.5.0")
 }

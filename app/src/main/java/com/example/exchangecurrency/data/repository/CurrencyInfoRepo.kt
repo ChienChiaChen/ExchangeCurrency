@@ -26,7 +26,6 @@ class CurrencyInfoRepo @Inject constructor(
             if (PreferenceUtils.isDataExpired()) {
                 emit(getCurrencyFromNetwork())
             } else {
-                println("berr")
                 if (cacheCurrencyInfo != null) {
                     emit(cacheCurrencyInfo!!)
                     return@flow

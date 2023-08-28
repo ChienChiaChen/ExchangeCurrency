@@ -96,10 +96,17 @@ dependencies {
     implementation("com.squareup.okhttp3:okhttp:4.11.0")
     implementation("com.squareup.okhttp3:logging-interceptor:4.11.0")
 
+
     //preference
     implementation("androidx.datastore:datastore-preferences:1.0.0")
 
     implementation("org.jetbrains.kotlinx:kotlinx-collections-immutable:0.3.5")
     implementation("androidx.lifecycle:lifecycle-runtime-compose:2.6.0-alpha01")
     implementation("io.github.hoc081098:FlowExt:0.5.0")
+
+    //test
+    testImplementation("com.squareup.okhttp3:mockwebserver:4.9.2")
+    testImplementation("io.mockk:mockk:1.12.4")
+    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.6.0")
+
 }

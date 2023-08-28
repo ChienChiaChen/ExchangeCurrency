@@ -1,0 +1,10 @@
+
+  {
+    "disclaimer": "Usage subject to terms: https://openexchangerates.org/terms",
+    "license": "https://openexchangerates.org/license",
+    "timestamp": 1692871200,
+    "base": "USD",
+    "rates": {
+      "TWD": 31.7654
+    }
+  }

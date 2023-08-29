@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ExchangeCurrency</string>
+
+    <string name="retry">Retry</string>
+    <string name="unexpected_error_error_message">Unexpected error</string>
+
 </resources>

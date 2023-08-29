@@ -32,6 +32,7 @@ class CurrencyInfoRepo @Inject constructor(
                 }
                 val currencyFromDB = getCurrencyFromDB()
                 if (currencyFromDB != null) {
+                    cacheCurrencyInfo = currencyFromDB
                     emit(currencyFromDB)
                 } else {
                     emit(getCurrencyFromNetwork())

@@ -19,8 +19,7 @@ class CurrencyInfoRepo @Inject constructor(
 
     fun getLatestCurrency(): Flow<CurrencyInfo> {
         // Check expired time
-        // if it's not expired and it also has data in db
-        // Fetch data from db.
+        // if it's expired , fetch data from memory or db.
         // otherwise, fetching data from server.
         return flow {
             if (PreferenceUtils.isDataExpired()) {
